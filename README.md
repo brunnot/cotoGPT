@@ -7,6 +7,8 @@ Fiz teste com os modelos
 Para o desenvolvimento do assistente, estou usando o langchain
 
 ### Dependências
+* python 3.10
+* pipenv
 * langchain
 * streamlit
 * streamlit-chat
@@ -15,6 +17,12 @@ Para o desenvolvimento do assistente, estou usando o langchain
 * fastembed
 
 `pipenv install langchain streamlit streamlit_chat chromadb pypdf fastembed`
+
+### Executando o projeto
+
+ 1. Clonar o projeto: `git clone https://github.com/brunnot/cotoGPT.git`
+ 2. Na pasta do projeto entrar no ambiente virtual: `pipenv shell`
+ 3. Iniciar a aplicação web: `streamlit run main.py`
 
 ### Referências
 https://python.langchain.com/docs/get_started/introduction
