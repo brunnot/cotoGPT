@@ -1,5 +1,3 @@
-# https://medium.com/@vndee.huynh/build-your-own-rag-and-run-it-locally-langchain-ollama-streamlit-181d42805895
-
 from langchain_community.vectorstores import Chroma
 from langchain.vectorstores.utils import filter_complex_metadata
 from langchain_community.chat_models import ChatOllama
